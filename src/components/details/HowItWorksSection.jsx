@@ -15,7 +15,7 @@ const Step = ({ number, title, description }) => (
 export default function HowItWorksSection() {
   const fadeInUp = { hidden: { opacity: 0, y: 18 }, visible: { opacity: 1, y: 0, transition: { duration: 0.6 } } };
   return (
-    <motion.section id="how-it-works" className="py-24" initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.25 }} variants={fadeInUp}>
+    <motion.section id="how-it-works" className="py-20" initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.25 }} variants={fadeInUp}>
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold">How It Works</h2>

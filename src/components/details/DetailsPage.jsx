@@ -5,9 +5,9 @@ import SolutionSection from "./SolutionSection";
 import TechnologySection from "./TechnologySection";
 import UseCasesSection from "./UseCasesSection";
 import HowItWorksSection from "./HowItWorksSection";
-import PricingSection from "./PricingSection";
+
 import FAQSection from "./FAQSection";
-import PricingSectionModern from "../mvpblocks/pricing-5";
+import PricingSectionModern from "../mvpblocks/PricingSectionModern";
 
 
 export default function DetailsPage() {
@@ -19,7 +19,7 @@ export default function DetailsPage() {
       <TechnologySection />
       <UseCasesSection />
       <HowItWorksSection />
-      <PricingSection />
+     
       <PricingSectionModern />
       <FAQSection />
       

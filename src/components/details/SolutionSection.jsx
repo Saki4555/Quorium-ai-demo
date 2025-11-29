@@ -6,7 +6,7 @@ import { Button } from "../ui/button";
 export default function SolutionSection() {
   const fadeInUp = { hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0, transition: { duration: 0.6 } } };
   return (
-    <motion.section id="solution" className="py-24 bg-card/40" initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.2 }} variants={fadeInUp}>
+    <motion.section id="solution" className="py-20 bg-card/40" initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.2 }} variants={fadeInUp}>
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <div>

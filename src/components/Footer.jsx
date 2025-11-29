@@ -39,7 +39,7 @@ export default function Footer() {
             Contact
           </Link>
           <Link
-            href="/details#solution"
+            href="/details"
             className="hover:text-primary transition"
           >
             Learn More

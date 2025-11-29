@@ -17,7 +17,7 @@ export default function Navbar() {
     { href: "/#services", label: "Services" },
     { href: "/#testimonials", label: "Testimonials" },
     { href: "/#team", label: "Team" },
-    { href: "/details#get-started", label: "Overview" },
+    { href: "/details", label: "Overview" },
   ];
 
   // Detect scroll

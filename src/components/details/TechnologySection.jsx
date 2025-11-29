@@ -22,7 +22,7 @@ function SpecCard({ title, value, description, Icon }) {
 export default function TechnologySection() {
   const fadeInUp = { hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0, transition: { duration: 0.6 } } };
   return (
-    <motion.section id="tech-details" className="py-24" initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.2 }} variants={fadeInUp}>
+    <motion.section id="tech-details" className="py-20" initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.2 }} variants={fadeInUp}>
       <div className="max-w-7xl mx-auto px-6">
         <header className="mb-10 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold">Technology & Specs</h2>

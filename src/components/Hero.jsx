@@ -47,9 +47,10 @@ const Hero = () => {
         <motion.p
           className="relative mt-6 text-base sm:text-lg lg:text-xl max-w-2xl leading-relaxed"
           initial="hidden"
-          animate="visible"
+          whileInView="visible"
+          viewport={{once: true}}
           variants={fadeInUp}
-          transition={{ delay: 0.2 }}
+          
         >
           Quorium-ai uses cutting-edge AI to turn everyday devices into powerful 3D-body scanners.
         </motion.p>
@@ -57,12 +58,13 @@ const Hero = () => {
           <motion.div
             className="relative mt-10 flex flex-row gap-4"
           initial="hidden"
-          animate="visible"
+          whileInView="visible"
+          viewport={{once: true}}
           variants={fadeInUp}
-          transition={{ delay: 0.4 }}
+          
         >
             <motion.div whileHover={buttonHover}>
-              <Link href="/details#get-started">
+              <Link href="/details">
                 <Button
                   asChild
                   className="text-sm px-6 py-3 sm:text-base sm:px-7 sm:py-3.5 lg:text-lg lg:px-9 lg:py-4 font-medium"
@@ -73,7 +75,7 @@ const Hero = () => {
             </motion.div>
 
             <motion.div whileHover={buttonHover}>
-              <Link href="/details#solution" >
+              <Link href="/details" >
                 <Button
                   variant="outline"
                   asChild
