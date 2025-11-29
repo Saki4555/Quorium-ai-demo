@@ -13,7 +13,7 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 const TESTIMONIALS = [
   {
     quote:
-      "Quoran‑ai transformed our product workflow — fast scans with production‑grade results.",
+      "Quorium‑ai transformed our product workflow — fast scans with production‑grade results.",
     name: "Sarah Kim",
     role: "Head of Product, FitStyle Inc.",
   },
@@ -37,13 +37,13 @@ const TESTIMONIALS = [
   },
   {
     quote:
-      "Using Quoran‑ai, our healthcare assessments are now precise and easy to gather.",
+      "Using Quorium‑ai, our healthcare assessments are now precise and easy to gather.",
     name: "Olivia Wong",
     role: "Clinical Lead, HealthMetrics",
   },
   {
     quote:
-      "Integrating Quoran‑ai into our workflow has streamlined design and manufacturing.",
+      "Integrating Quorium‑ai into our workflow has streamlined design and manufacturing.",
     name: "James Carter",
     role: "Senior Product Manager, MotionWear",
   },
@@ -79,7 +79,7 @@ export default function Testimonials() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="mt-4 max-w-3xl mx-auto text-sm sm:text-base text-muted-foreground"
         >
-          Real feedback from early adopters using Quoran‑ai for apparel, fitness, and health solutions.
+          Real feedback from early adopters using Quorium‑ai for apparel, fitness, and health solutions.
         </motion.p>
       </div>
 

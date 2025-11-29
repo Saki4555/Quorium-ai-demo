@@ -11,12 +11,13 @@ export default function Navbar() {
  
 
   const navLinks = [
-    { href: "#home", label: "Home" },
-    { href: "#features", label: "Features" },
-    { href: "#about", label: "About" },
-    { href: "#services", label: "Services" },
-    { href: "#testimonials", label: "Testimonials" },
-    { href: "#team", label: "Team" },
+    { href: "/#home", label: "Home" },
+    { href: "/#features", label: "Features" },
+    { href: "/#about", label: "About" },
+    { href: "/#services", label: "Services" },
+    { href: "/#testimonials", label: "Testimonials" },
+    { href: "/#team", label: "Team" },
+    { href: "/details#get-started", label: "Overview" },
   ];
 
   // Detect scroll
@@ -60,13 +61,13 @@ export default function Navbar() {
           {/* Desktop Links */}
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((l) => (
-              <a
+              <Link
                 key={l.href}
                 href={l.href}
                 className="text-sm font-medium hover:opacity-80 transition"
               >
                 {l.label}
-              </a>
+              </Link>
             ))}
             <Button asChild>
               <a href="#subscribe">Get Demo</a>
@@ -123,7 +124,7 @@ export default function Navbar() {
               <div className="flex flex-col h-full px-6 pt-6 pb-8">
                 {/* Header with Close */}
                 <div className="flex justify-between items-center mb-8">
-                  <span className="font-semibold text-lg">Quoran-ai</span>
+                  <span className="font-semibold text-lg">Quorium-ai</span>
                   <button
                     onClick={() => setOpen(false)}
                     className="p-2 rounded-md"

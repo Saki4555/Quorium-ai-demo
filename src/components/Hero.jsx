@@ -3,6 +3,7 @@
 
 import LightRays from "./LightRays";
 import { Button } from "./ui/button";
+import Link from "next/link";
 import { motion } from "motion/react";
 
 
@@ -18,13 +19,13 @@ const Hero = () => {
       {/* Light rays background */}
       <LightRays
         raysOrigin="top-center"
-        raysColor="#5459AC"
-        raysSpeed={1.2}
+        raysColor="#6F00FF"
+        raysSpeed={1.4}
         lightSpread={0.75}
-        rayLength={1.3}
+        rayLength={1.6}
         followMouse={false}
         noiseAmount={0.08}
-        distortion={0.04}
+        distortion={0.09}
         className="absolute inset-0"
       />
 
@@ -50,34 +51,38 @@ const Hero = () => {
           variants={fadeInUp}
           transition={{ delay: 0.2 }}
         >
-          Quoran-ai uses cutting-edge AI to turn everyday devices into powerful 3D-body scanners.
+          Quorium-ai uses cutting-edge AI to turn everyday devices into powerful 3D-body scanners.
         </motion.p>
 
-        <motion.div
-          className="relative mt-10 flex flex-row gap-4"
+          <motion.div
+            className="relative mt-10 flex flex-row gap-4"
           initial="hidden"
           animate="visible"
           variants={fadeInUp}
           transition={{ delay: 0.4 }}
         >
-          <motion.div whileHover={buttonHover}>
-            <Button
-              asChild
-              className="text-sm px-6 py-3 sm:text-base sm:px-7 sm:py-3.5 lg:text-lg lg:px-9 lg:py-4 font-medium"
-            >
-              <a href="#get-started">Get Started</a>
-            </Button>
-          </motion.div>
+            <motion.div whileHover={buttonHover}>
+              <Link href="/details#get-started">
+                <Button
+                  asChild
+                  className="text-sm px-6 py-3 sm:text-base sm:px-7 sm:py-3.5 lg:text-lg lg:px-9 lg:py-4 font-medium"
+                >
+                  <span>Get Started</span>
+                </Button>
+              </Link>
+            </motion.div>
 
-          <motion.div whileHover={buttonHover}>
-            <Button
-              variant="outline"
-              asChild
-              className="text-sm px-6 py-3 sm:text-base sm:px-7 sm:py-3.5 lg:text-lg lg:px-9 lg:py-4 font-medium"
-            >
-              <a href="#learn-more">Learn More</a>
-            </Button>
-          </motion.div>
+            <motion.div whileHover={buttonHover}>
+              <Link href="/details#solution" >
+                <Button
+                  variant="outline"
+                  asChild
+                  className="text-sm px-6 py-3 sm:text-base sm:px-7 sm:py-3.5 lg:text-lg lg:px-9 lg:py-4 font-medium"
+                >
+                  <span>Learn More</span>
+                </Button>
+              </Link>
+            </motion.div>
         </motion.div>
       </div>
     </div>

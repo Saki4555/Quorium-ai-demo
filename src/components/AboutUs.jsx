@@ -40,7 +40,7 @@ export default function AboutUs() {
             className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight"
           >
             {/* EDIT: Main heading */}
-            About Quoran-ai
+            About Quorium-ai
           </h2>
           <p className="mt-4 max-w-3xl text-sm sm:text-base leading-relaxed opacity-95">
             {/* EDIT: Intro paragraph */}
@@ -68,7 +68,7 @@ export default function AboutUs() {
               <p className="mt-3 text-sm leading-relaxed">
                 {/* EDIT: Story */}
                 Founded by engineers and product designers frustrated with slow,
-                costly 3D capture, Quoran-ai built tools that work on consumer
+                costly 3D capture, Quorium-ai built tools that work on consumer
                 devices without sacrificing accuracy. We combine pragmatic ML,
                 careful UX, and privacy-first engineering to deliver results teams
                 can trust.

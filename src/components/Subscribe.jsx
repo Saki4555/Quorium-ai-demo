@@ -38,7 +38,7 @@ export default function Subscribe() {
             id="subscribe-heading"
             className="text-3xl sm:text-4xl font-semibold leading-tight"
           >
-            Stay Updated with Quoran‑ai
+            Stay Updated with Quorium‑ai
           </h3>
           <p className="mt-3 text-base sm:text-lg leading-relaxed opacity-90 max-w-lg">
             Get the latest on product updates, early‑access invites, and 3D body‑scan insights — delivered straight to your inbox.

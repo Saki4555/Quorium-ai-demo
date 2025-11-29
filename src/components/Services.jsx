@@ -80,7 +80,7 @@ export default function Services() {
           </h2>
           <p className="mt-4 max-w-3xl mx-auto text-sm sm:text-base leading-relaxed opacity-95">
             From enterprise integrations to consumer-ready mobile capture,
-            Quoran-ai delivers end-to-end services that make 3D body data
+            Quorium-ai delivers end-to-end services that make 3D body data
             practical and production-ready.
           </p>
         </motion.header>
