@@ -54,7 +54,7 @@ const cardAnimation = {
   whileInView: { opacity: 1, y: 0 },
   transition: (i) => ({
     duration: 0.6,
-    delay: i * 0.15,
+    delay: i * 0.08,
     ease: [0.17, 0.55, 0.55, 1],
   }),
 };

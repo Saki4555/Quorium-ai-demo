@@ -8,7 +8,7 @@ export default function SolutionSection() {
   return (
     <motion.section id="solution" className="py-24 bg-card/40" initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.2 }} variants={fadeInUp}>
       <div className="max-w-6xl mx-auto px-6">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <div>
             <h2 className="text-3xl sm:text-4xl font-bold">Our Solution</h2>
             <p className="mt-3 text-muted-foreground max-w-xl">Quorium-ai combines efficient neural reconstruction with a privacy-first deployment model. Gather scans with a phone, process on-device or in the cloud, and export industry-standard outputs for immediate use.</p>
@@ -45,7 +45,7 @@ export default function SolutionSection() {
           <div className="rounded-2xl overflow-hidden shadow-md bg-card">
             <img
               loading="lazy"
-              src="https://images.unsplash.com/photo-1605902711622-cfb43c44367d?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder"
+              src="/assets/eight.jpg"
               alt="Solution pipeline diagram"
               className="w-full h-full object-cover min-h-80"
             />

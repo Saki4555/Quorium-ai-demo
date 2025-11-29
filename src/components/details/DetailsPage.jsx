@@ -7,6 +7,7 @@ import UseCasesSection from "./UseCasesSection";
 import HowItWorksSection from "./HowItWorksSection";
 import PricingSection from "./PricingSection";
 import FAQSection from "./FAQSection";
+import PricingSectionModern from "../mvpblocks/pricing-5";
 
 
 export default function DetailsPage() {
@@ -19,6 +20,7 @@ export default function DetailsPage() {
       <UseCasesSection />
       <HowItWorksSection />
       <PricingSection />
+      <PricingSectionModern />
       <FAQSection />
       
     </main>

@@ -70,7 +70,7 @@ export default function TechnologySection() {
           <div className="rounded-2xl overflow-hidden shadow-md bg-card">
             <img
               loading="lazy"
-              src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder"
+              src="/assets/seven.jpg"
               alt="Technical overview"
               className="w-full h-full object-cover min-h-80"
             />

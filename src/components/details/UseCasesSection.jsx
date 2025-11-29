@@ -12,8 +12,8 @@ function UseCase({ icon: Icon, title, description, image }) {
         <h4 className="text-sm font-semibold">{title}</h4>
         <p className="mt-2 text-xs text-muted-foreground">{description}</p>
       </div>
-      <div className="w-36 rounded-lg overflow-hidden shadow-sm hidden md:block">
-        <img loading="lazy" src={image} alt="use-case preview" className="object-cover w-full h-full" />
+      <div className="w-28 rounded-lg overflow-hidden shadow-sm hidden md:block">
+        <img loading="lazy" src={image} alt="use-case preview" className="object-cover  w-full h-full" />
       </div>
     </article>
   );
@@ -34,14 +34,14 @@ export default function UseCasesSection() {
             icon={Shirt}
             title="Apparel & Retail"
             description="Reduce returns with accurate virtual try-on and size recommendations — integrate with ecommerce and PLM systems."
-            image="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder"
+            image="/assets/one.jpeg"
           />
 
           <UseCase
             icon={Heart}
             title="Healthcare & Telemedicine"
             description="Remote biometric capture to track patient metrics, posture, and recovery progress without in-person visits."
-            image="https://images.unsplash.com/photo-1580281657525-1f6a8f1bbd1a?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder"
+            image="/assets/three.jpeg"
           />
 
           <UseCase

@@ -68,7 +68,7 @@ export default function DetailsHero() {
           <div className="rounded-2xl overflow-hidden shadow-md bg-card">
             <img
               loading="lazy"
-              src="https://images.unsplash.com/photo-1543128639-4cb7e1e1a9d6?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder"
+              src="/assets/six.jpg"
               alt="3D capture example"
               className="w-full h-full object-cover min-h-80"
             />
