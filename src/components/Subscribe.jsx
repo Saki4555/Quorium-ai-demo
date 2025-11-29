@@ -65,7 +65,7 @@ export default function Subscribe() {
               type="email"
               required
               placeholder="you@company.com"
-              className="min-w-0 px-5 py-4 rounded-lg border border-accent bg-background/50 focus:outline-none focus:ring-2 focus:ring-offset-0 focus:ring-primary text-foreground"
+              className="min-w-0 px-5 py-4 rounded-lg border border-accent-foreground/50 bg-background/50 focus:outline-none focus:ring-2 focus:ring-offset-0 focus:ring-primary text-foreground"
             />
 
             <Button

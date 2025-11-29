@@ -83,7 +83,7 @@ export default function Testimonials() {
         </motion.p>
       </div>
 
-      <Carousel className="w-full">
+     <Carousel className="w-full relative group">
         <CarouselContent className="-ml-4">
           {TESTIMONIALS.map((t, i) => (
             <CarouselItem
@@ -120,8 +120,16 @@ export default function Testimonials() {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+        
+        {/* Desktop: Buttons on the sides, inside container */}
+        <CarouselPrevious className="hidden md:flex scale-0 transition-transform duration-200 group-hover:scale-100 left-0 lg:left-4" />
+        <CarouselNext className="hidden md:flex scale-0 transition-transform duration-200 group-hover:scale-100 right-0 lg:right-4" />
+        
+        {/* Mobile: Buttons below content */}
+        <div className="flex md:hidden justify-center  gap-4 mt-8">
+          <CarouselPrevious className="static translate-y-0" />
+          <CarouselNext className="static translate-y-0" />
+        </div>
       </Carousel>
     </section>
   );

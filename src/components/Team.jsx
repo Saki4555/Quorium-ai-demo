@@ -3,7 +3,7 @@
 import React from "react";
 import { motion } from "motion/react";
 
-import { IconBrandLinkedin, IconBrandX } from "@tabler/icons-react";
+
 import { Button } from "./ui/button";
 
 /**
@@ -123,30 +123,11 @@ export default function Team() {
             </h3>
             <div className="text-xs opacity-80 mt-1">{member.role}</div>
 
-            <p className="mt-3 text-sm leading-relaxed opacity-95">
+            <p className="mt-5 text-sm leading-relaxed opacity-95">
               {member.bio}
             </p>
 
-            <div className="mt-4 flex items-center gap-3">
-              {member.links.linkedin && (
-                <a
-                  href={member.links.linkedin}
-                  aria-label={`${member.name} on LinkedIn`}
-                  className="p-2 rounded-md"
-                >
-                  <IconBrandLinkedin className="h-4 w-4" />
-                </a>
-              )}
-              {member.links.twitter && (
-                <a
-                  href={member.links.twitter}
-                  aria-label={`${member.name} on Twitter`}
-                  className="p-2 rounded-md"
-                >
-                  <IconBrandX className="h-4 w-4" />
-                </a>
-              )}
-            </div>
+            
           </motion.article>
         ))}
       </motion.div>
