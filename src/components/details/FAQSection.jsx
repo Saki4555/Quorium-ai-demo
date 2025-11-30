@@ -45,7 +45,7 @@ export default function FAQSection() {
         <div className="text-center mb-10">
           <h2 className="text-3xl sm:text-4xl font-bold">Frequently Asked Questions</h2>
           <p className="mt-3 text-muted-foreground">
-            Common questions about Quorium-ai, integrations, and security.
+            Common questions about Quoran-ai, integrations, and security.
           </p>
         </div>
 

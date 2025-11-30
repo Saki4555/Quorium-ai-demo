@@ -132,19 +132,7 @@ export default function Team() {
         ))}
       </motion.div>
 
-      {/* ---- CTA BUTTON ---- */}
-      <div className="mt-10 text-center">
-        <Button
-          asChild
-          className="
-            text-sm px-5 py-2.5
-            sm:text-base sm:px-6 sm:py-3
-            font-medium
-          "
-        >
-          <a href="#careers">Join the team</a>
-        </Button>
-      </div>
+     
     </section>
   );
 }

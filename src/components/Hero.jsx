@@ -52,7 +52,7 @@ const Hero = () => {
           variants={fadeInUp}
           
         >
-          Quorium-ai uses cutting-edge AI to turn everyday devices into powerful 3D-body scanners.
+          Quoran-ai uses cutting-edge AI to turn everyday devices into powerful 3D-body scanners.
         </motion.p>
 
           <motion.div

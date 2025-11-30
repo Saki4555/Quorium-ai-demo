@@ -15,7 +15,7 @@ const TIERS = [
       monthly: "Free",
       yearly: "Free",
     },
-    description: "An easy way to try Quorium-ai and capture your first 3D models.",
+    description: "An easy way to try Quoran-ai and capture your first 3D models.",
     features: [
       "Phone capture & single export",
       "On-device inference option",

@@ -55,7 +55,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-6 lg:px-12 h-16 flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="font-semibold text-xl tracking-tight ">
-            Quorium-ai
+            Quoran-ai
           </Link>
 
           {/* Desktop Links */}
@@ -70,7 +70,7 @@ export default function Navbar() {
               </Link>
             ))}
             <Button asChild>
-              <a href="#subscribe">Get Demo</a>
+              <Link href="/#subscribe">Get Demo</Link>
             </Button>
           </div>
 
@@ -124,7 +124,7 @@ export default function Navbar() {
               <div className="flex flex-col h-full px-6 pt-6 pb-8">
                 {/* Header with Close */}
                 <div className="flex justify-between items-center mb-8">
-                  <span className="font-semibold text-lg">Quorium-ai</span>
+                  <span className="font-semibold text-lg">Quoran-ai</span>
                   <button
                     onClick={() => setOpen(false)}
                     className="p-2 rounded-md"

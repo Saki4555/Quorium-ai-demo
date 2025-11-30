@@ -75,7 +75,7 @@ export default function Features() {
             id="features-heading"
             className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight"
           >
-            What Quorium-ai enables
+            What Quoran-ai enables
           </h2>
           <p className="mt-4 max-w-3xl mx-auto text-sm sm:text-base leading-relaxed opacity-95">
             Democratized, high-fidelity 3D human body data — captured with

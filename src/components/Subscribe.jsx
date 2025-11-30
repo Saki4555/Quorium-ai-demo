@@ -2,6 +2,7 @@
 
 import { Button } from "./ui/button";
 import { motion } from "motion/react";
+import { toast } from "sonner";
 
 export default function Subscribe() {
   // Motion variants
@@ -10,7 +11,16 @@ export default function Subscribe() {
     visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
   };
 
-  const hoverScale = { scale: 1.05, transition: { duration: 0.2 } };
+  const hoverScale = { scale: 1.02, transition: { duration: 0.2 } };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+   toast.success("You're subscribed! 🎉", {
+  description: "You'll receive updates in your inbox.",
+           
+  
+});
+  };
 
   return (
     <section
@@ -18,7 +28,6 @@ export default function Subscribe() {
       aria-labelledby="subscribe-heading"
       className="max-w-5xl mx-auto px-6 py-16 mb-20 rounded-2xl bg-card/70 border border-border overflow-hidden relative"
     >
-      {/* Optional soft decorative shape */}
       <div
         aria-hidden="true"
         className="absolute -right-24 -top-24 w-[320px] h-[320px] rounded-full bg-gradient-to-br from-primary/10 to-accent/6 blur-3xl pointer-events-none"
@@ -38,7 +47,7 @@ export default function Subscribe() {
             id="subscribe-heading"
             className="text-3xl sm:text-4xl font-semibold leading-tight"
           >
-            Stay Updated with Quorium‑ai
+            Stay Updated with Quoran‑ai
           </h3>
           <p className="mt-3 text-base sm:text-lg leading-relaxed opacity-90 max-w-lg">
             Get the latest on product updates, early‑access invites, and 3D body‑scan insights — delivered straight to your inbox.
@@ -48,7 +57,7 @@ export default function Subscribe() {
         <motion.form
           action="#"
           method="POST"
-          onSubmit={(e) => e.preventDefault()}
+          onSubmit={handleSubmit}
           className="w-full sm:w-auto"
           variants={fadeInUp}
         >

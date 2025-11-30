@@ -11,7 +11,7 @@ export default function ProblemSection() {
           <h2 className="text-3xl sm:text-4xl font-bold">Problems We Help Solve</h2>
           <p className="mt-3 text-sm sm:text-base text-muted-foreground max-w-2xl mx-auto">
             Many teams still rely on expensive hardware, manual measurements, or
-            legacy tools that don't scale. Quorium-ai solves the key adoption
+            legacy tools that don't scale. Quoran-ai solves the key adoption
             challenges that slow teams down.
           </p>
         </div>

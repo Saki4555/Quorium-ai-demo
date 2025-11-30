@@ -80,7 +80,7 @@ export default function Services() {
           </h2>
           <p className="mt-4 max-w-3xl mx-auto text-sm sm:text-base leading-relaxed opacity-95">
             From enterprise integrations to consumer-ready mobile capture,
-            Quorium-ai delivers end-to-end services that make 3D body data
+            Quoran-ai delivers end-to-end services that make 3D body data
             practical and production-ready.
           </p>
         </motion.header>
@@ -151,24 +151,13 @@ export default function Services() {
                 <a href="#subscribe">Request a demo</a>
               </Button>
 
-              {/* Secondary CTA */}
-              <Button
-                variant="outline"
-                asChild
-                className="
-      text-xs px-3 py-2
-      sm:text-base sm:px-5 sm:py-3
-      font-medium
-    "
-              >
-                <a href="#contact">Contact sales</a>
-              </Button>
+             
             </div>
 
             {/* small decorative image (desktop) */}
-            <div className="hidden md:block mt-6 rounded-lg overflow-hidden w-full h-36">
+            <div className="hidden md:block mt-6 rounded-lg overflow-hidden w-full h-32">
               <img
-                src="/assets/three.jpeg"
+                src="/assets/seven.jpg"
                 alt="Capture workflow"
                 className="object-cover w-full h-full"
               />

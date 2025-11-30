@@ -13,7 +13,7 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 const TESTIMONIALS = [
   {
     quote:
-      "Quorium‑ai transformed our product workflow — fast scans with production‑grade results.",
+      "Quoran‑ai transformed our product workflow — fast scans with production‑grade results.",
     name: "Sarah Kim",
     role: "Head of Product, FitStyle Inc.",
   },
@@ -37,24 +37,24 @@ const TESTIMONIALS = [
   },
   {
     quote:
-      "Using Quorium‑ai, our healthcare assessments are now precise and easy to gather.",
+      "Using Quoran‑ai, our healthcare assessments are now precise and easy to gather.",
     name: "Olivia Wong",
     role: "Clinical Lead, HealthMetrics",
   },
   {
     quote:
-      "Integrating Quorium‑ai into our workflow has streamlined design and manufacturing.",
+      "Integrating Quoran‑ai into our workflow has streamlined design and manufacturing.",
     name: "James Carter",
     role: "Senior Product Manager, MotionWear",
   },
 ];
 
 const cardAnimation = {
-  initial: { opacity: 0, y: 50 },
+  initial: { opacity: 0, y: 20 },
   whileInView: { opacity: 1, y: 0 },
   transition: (i) => ({
     duration: 0.6,
-    delay: i * 0.08,
+    delay: i * 0.04,
     ease: [0.17, 0.55, 0.55, 1],
   }),
 };
@@ -79,7 +79,7 @@ export default function Testimonials() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="mt-4 max-w-3xl mx-auto text-sm sm:text-base text-muted-foreground"
         >
-          Real feedback from early adopters using Quorium‑ai for apparel, fitness, and health solutions.
+          Real feedback from early adopters using Quoran‑ai for apparel, fitness, and health solutions.
         </motion.p>
       </div>
 
@@ -94,7 +94,7 @@ export default function Testimonials() {
                 initial={cardAnimation.initial}
                 whileInView={cardAnimation.whileInView}
                 transition={cardAnimation.transition(i)}
-                viewport={{ once: true, amount: 0.5 }}
+                viewport={{ once: true, amount: 0.1 }}
                 className="bg-card border border-border/70 rounded-3xl p-8 flex flex-col justify-between h-full transition-shadow duration-300 hover:shadow-lg "
               >
                 <blockquote className="flex flex-col h-full">

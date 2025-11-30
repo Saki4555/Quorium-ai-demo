@@ -11,7 +11,7 @@ export default function SolutionSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <div>
             <h2 className="text-3xl sm:text-4xl font-bold">Our Solution</h2>
-            <p className="mt-3 text-muted-foreground max-w-xl">Quorium-ai combines efficient neural reconstruction with a privacy-first deployment model. Gather scans with a phone, process on-device or in the cloud, and export industry-standard outputs for immediate use.</p>
+            <p className="mt-3 text-muted-foreground max-w-xl">Quoran-ai combines efficient neural reconstruction with a privacy-first deployment model. Gather scans with a phone, process on-device or in the cloud, and export industry-standard outputs for immediate use.</p>
 
             <ul className="mt-6 grid gap-3">
               <li className="flex items-start gap-3">

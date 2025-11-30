@@ -26,7 +26,7 @@ export default function UseCasesSection() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-10">
           <h2 className="text-3xl sm:text-4xl font-bold">Use Cases & Industry Examples</h2>
-          <p className="mt-3 text-muted-foreground max-w-3xl mx-auto">Quorium-ai helps teams reduce returns, speed clinical care, and create immersive experiences. Here are a few real-world examples.</p>
+          <p className="mt-3 text-muted-foreground max-w-3xl mx-auto">Quoran-ai helps teams reduce returns, speed clinical care, and create immersive experiences. Here are a few real-world examples.</p>
         </div>
 
         <div className="grid gap-6 grid-cols-1 md:grid-cols-2">
@@ -48,14 +48,14 @@ export default function UseCasesSection() {
             icon={Zap}
             title="Sports & Performance"
             description="Biomechanical insights, motion-aware metrics, and calibration for wearables and training tools."
-            image="https://images.unsplash.com/photo-1517964109897-33f2f73f7b8f?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder"
+            image="/assets/four.jpeg"
           />
 
           <UseCase
             icon={MapPin}
             title="AR/VR & Avatars"
             description="Create accurate avatars and workflows for virtual product fitting, gaming, and social experiences."
-            image="https://images.unsplash.com/photo-1549921296-3e793b3e1a54?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder"
+           image="/assets/two.jpeg"
           />
         </div>
       </div>

@@ -17,7 +17,7 @@ export default function DetailsHero() {
               Accurate 3D Body Capture for Production & Enterprise
             </motion.h1>
             <motion.p className="text-base sm:text-lg text-muted-foreground max-w-2xl" variants={fadeIn}>
-              Quorium-ai delivers sub-millimeter 3D body reconstruction, robust
+              Quoran-ai delivers sub-millimeter 3D body reconstruction, robust
               biometric metrics, and privacy-first data processing for retailers,
               healthcare providers, and developers. Choose cloud or on-device
               inference to meet compliance and scale.
